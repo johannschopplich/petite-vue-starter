@@ -1,6 +1,6 @@
-import { defineConfig } from "vite";
+import { ConfigEnv, UserConfigExport } from "vite";
+import { minifyHtml } from "vite-plugin-html";
 
-export default defineConfig({
-  // Extend to your liking or delete the config file
-  // if no customized Vite config is needed
+export default ({ command }: ConfigEnv): UserConfigExport => ({
+  plugins: [minifyHtml(command === "build")],
 });
