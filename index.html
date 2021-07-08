@@ -47,7 +47,11 @@
                   sm:text-lg sm:leading-7
                 "
               >
-                <div v-scope class="flex justify-between items-center">
+                <div
+                  v-scope
+                  class="flex justify-between items-center"
+                  @mounted="mounted"
+                >
                   <div>
                     <p>
                       Count:
