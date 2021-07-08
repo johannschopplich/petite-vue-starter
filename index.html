@@ -47,38 +47,26 @@
                   sm:text-lg sm:leading-7
                 "
               >
-                <div v-scope>
-                  <p>
-                    Count:
-                    <span class="tag">{{ count }}</span>
-                  </p>
-                  <p>
-                    Plus one:
-                    <span class="tag">{{ plusOne }}</span>
-                  </p>
-                  <button
-                    class="
-                      bg-sky-500
-                      hover:bg-sky-600
-                      text-white
-                      font-bold
-                      py-2
-                      px-4
-                      mt-2
-                      rounded
-                    "
-                    @click="increment"
-                  >
-                    Increment
-                  </button>
+                <div class="flex justify-between items-center" v-scope>
+                  <div>
+                    <p>
+                      Count:
+                      <span class="tag">{{ count }}</span>
+                    </p>
+                    <p>
+                      Plus one:
+                      <span class="tag">{{ plusOne }}</span>
+                    </p>
+                  </div>
+                  <button class="btn" @click="increment">Increment</button>
                 </div>
               </div>
               <div
                 class="
                   pt-6
                   text-base
-                  leading-6
                   font-bold
+                  leading-6
                   sm:text-lg sm:leading-7
                 "
               >
@@ -88,7 +76,7 @@
                     href="https://github.com/vuejs/petite-vue"
                     class="text-sky-500 hover:text-sky-600"
                   >
-                    Read the docs &rarr;</a
+                    Head over to the docs &rarr;</a
                   >
                 </p>
               </div>

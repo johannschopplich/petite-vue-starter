@@ -5,3 +5,7 @@
 .tag {
   @apply bg-cyan-100 text-cyan-600 text-base font-semibold px-2 py-1 rounded-lg;
 }
+
+.btn {
+  @apply bg-sky-500 hover:bg-sky-600 text-white font-bold px-4 py-2 rounded;
+}

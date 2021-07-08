@@ -2,7 +2,7 @@
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/johannschopplich/petite-vue-starter)
 
-### Key Features
+## Key Features
 
 - 🖖 Petite Vue
 - 🍃 Tailwind
