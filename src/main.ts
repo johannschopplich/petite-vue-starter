@@ -1,15 +1,15 @@
 import "./style.css";
-// @ts-ignore: No types yet available
+// @ts-ignore: No types available yet
 import { createApp } from "petite-vue";
 
 createApp({
-  // exposed to all expressions
+  // Exposed to all expressions
   count: 0,
-  // getters
+  // Getters
   get plusOne() {
     return this.count + 1;
   },
-  // methods
+  // Methods
   increment() {
     this.count++;
   },

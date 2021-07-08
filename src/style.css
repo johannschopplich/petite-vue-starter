@@ -2,6 +2,7 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+/* Hide elements until mounted */
 [v-cloak] {
   display: none;
 }
@@ -12,4 +13,5 @@
 
 .btn {
   @apply bg-sky-500 hover:bg-sky-600 text-white font-bold px-4 py-2 rounded;
+  touch-action: manipulation;
 }
