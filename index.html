@@ -47,15 +47,15 @@
                   sm:text-lg sm:leading-7
                 "
               >
-                <div class="flex justify-between items-center" v-scope>
+                <div v-scope class="flex justify-between items-center">
                   <div>
                     <p>
                       Count:
-                      <span class="tag">{{ count }}</span>
+                      <span v-cloak class="tag">{{ count }}</span>
                     </p>
                     <p>
                       Plus one:
-                      <span class="tag">{{ plusOne }}</span>
+                      <span v-cloak class="tag">{{ plusOne }}</span>
                     </p>
                   </div>
                   <button class="btn" @click="increment">Increment</button>

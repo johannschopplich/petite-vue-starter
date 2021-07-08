@@ -2,6 +2,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+[v-cloak] {
+  display: none;
+}
+
 .tag {
   @apply bg-cyan-100 text-cyan-600 text-base font-semibold px-2 py-1 rounded-lg;
 }
