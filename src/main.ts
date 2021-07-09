@@ -19,4 +19,4 @@ createApp({
   mounted() {
     console.log("I'm mounted!");
   },
-}).mount();
+}).mount("#app");
