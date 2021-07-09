@@ -3,7 +3,6 @@
     "target": "esnext",
     "module": "esnext",
     "lib": ["esnext", "dom"],
-    "types": ["vite/client"],
     "moduleResolution": "node",
     "strict": true,
     "sourceMap": true,
@@ -12,7 +11,8 @@
     "noEmit": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noImplicitReturns": true
+    "noImplicitReturns": true,
+    "types": ["vite/client"]
   },
   "include": ["src"]
 }

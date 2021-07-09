@@ -16,7 +16,7 @@ createApp({
     this.count++;
   },
 
-  mounted() {
-    console.log("I'm mounted!");
+  mounted($el?: Node) {
+    console.log("Mounted on:", $el);
   },
 }).mount("#app");
