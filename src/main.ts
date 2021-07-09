@@ -1,5 +1,4 @@
 import "./style.css";
-// @ts-expect-error: No types available yet
 import { createApp } from "petite-vue";
 
 createApp({
