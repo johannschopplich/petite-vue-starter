@@ -3,9 +3,9 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "lint": "eslint src/**",
-    "lint:fix": "eslint src/** --fix",
-    "cleanup": "prettier --write src/**/*.ts --parser typescript",
+    "lint": "eslint \"src/**/*.ts\"",
+    "lint:fix": "eslint \"src/**/*.ts\" --fix",
+    "cleanup": "prettier --write \"src/**/*.ts\" --parser typescript",
     "prepare": "husky install"
   },
   "dependencies": {
