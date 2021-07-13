@@ -1,3 +1,4 @@
+/* eslint-disable */
 const { sky, cyan } = require("tailwindcss/colors");
 
 /** @type {import("@types/tailwindcss/tailwind-config").TailwindConfig} */
