@@ -1,7 +1,7 @@
 import "./style.css";
 import { createApp } from "petite-vue";
 
-createApp({
+const initialData = {
   // Exposed to all expressions
   count: 0,
 
@@ -18,4 +18,6 @@ createApp({
   mounted($el?: Node) {
     console.log("Mounted on:", $el);
   },
-}).mount("#app");
+};
+
+createApp(initialData).mount("#app");
