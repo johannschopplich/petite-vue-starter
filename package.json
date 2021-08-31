@@ -5,13 +5,13 @@
     "serve": "vite preview",
     "lint": "eslint \"src/**/*.ts\"",
     "lint:fix": "npm run lint -- --fix",
-    "cleanup": "prettier --write \"src/**/*.ts\" --parser typescript",
+    "cleanup": "prettier --write \"src/**/*.ts\"",
     "prepare": "husky install"
   },
   "lint-staged": {
     "src/**/*.ts": [
       "eslint",
-      "prettier --write --parser typescript"
+      "prettier --write"
     ]
   },
   "dependencies": {
