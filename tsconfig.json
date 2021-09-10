@@ -1,18 +1,17 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "module": "esnext",
     "lib": ["esnext", "dom"],
+    "module": "esnext",
     "moduleResolution": "node",
-    "strict": true,
-    "sourceMap": true,
+    "types": ["vite/client"],
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "noEmit": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true,
     "noImplicitReturns": true,
-    "types": ["vite/client"]
+    "skipLibCheck": true
   },
-  "include": ["src"]
+  "include": ["src", "vite.config.ts"]
 }

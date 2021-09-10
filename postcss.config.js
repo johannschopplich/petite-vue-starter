@@ -1,4 +1,4 @@
-/* eslint-disable */
+/* eslint-disable no-undef */
 module.exports = {
   plugins: {
     tailwindcss: {},
