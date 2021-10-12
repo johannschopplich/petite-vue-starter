@@ -1,6 +1,6 @@
 import { minifyHtml } from "vite-plugin-html";
-import type { ConfigEnv, UserConfigExport } from "vite";
+import { defineConfig } from "vite";
 
-export default ({ mode }: ConfigEnv): UserConfigExport => ({
+export default defineConfig(({ mode }) => ({
   plugins: [minifyHtml(mode === "production")],
-});
+}));

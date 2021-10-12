@@ -16,24 +16,24 @@
     ]
   },
   "dependencies": {
-    "@vue/reactivity": "^3.2.16",
+    "@vue/reactivity": "^3.2.20",
     "petite-vue": "^0.3.0"
   },
   "devDependencies": {
-    "@types/node": "^16.9.6",
+    "@types/node": "^16.10.3",
     "@types/tailwindcss": "^2.2.1",
-    "@typescript-eslint/eslint-plugin": "^4.31.2",
-    "@typescript-eslint/parser": "^4.31.2",
-    "autoprefixer": "^10.3.5",
-    "eslint": "^7.32.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "autoprefixer": "^10.3.7",
+    "eslint": "^8.0.0",
     "eslint-config-prettier": "^8.3.0",
     "husky": "^7.0.2",
-    "lint-staged": "^11.1.2",
-    "postcss": "^8.3.7",
+    "lint-staged": "^11.2.3",
+    "postcss": "^8.3.9",
     "prettier": "^2.4.1",
-    "tailwindcss": "^2.2.15",
+    "tailwindcss": "^2.2.16",
     "typescript": "^4.4.3",
-    "vite": "^2.5.10",
-    "vite-plugin-html": "^2.1.0"
+    "vite": "^2.6.7",
+    "vite-plugin-html": "^2.1.1"
   }
 }
