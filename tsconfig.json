@@ -1,17 +1,22 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "lib": ["esnext", "dom"],
-    "module": "esnext",
-    "moduleResolution": "node",
+    "target": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "jsx": "preserve",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "paths": {
+      "~/*": ["./src/*"]
+    },
     "types": ["vite/client"],
     "resolveJsonModule": true,
+    "isolatedModules": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "noUnusedLocals": true,
-    "noImplicitReturns": true,
+    "sourceMap": true,
     "skipLibCheck": true
   },
-  "include": ["src", "vite.config.ts"]
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "references": [{ "path": "./tsconfig.node.json" }]
 }

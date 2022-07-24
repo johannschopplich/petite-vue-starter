@@ -1,39 +1,31 @@
 {
-  "private": "true",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
     "lint": "eslint \"src/**/*.ts\"",
     "lint:fix": "npm run lint -- --fix",
-    "format": "prettier --write \"src/**/*.ts\"",
-    "prepare": "husky install"
-  },
-  "lint-staged": {
-    "src/**/*.ts": [
-      "eslint",
-      "prettier --write"
-    ]
+    "format": "prettier --write \"src/**/*.ts\""
   },
   "dependencies": {
-    "@vue/reactivity": "^3.2.21",
-    "petite-vue": "^0.3.0"
+    "@unocss/reset": "^0.44.5",
+    "@vue/reactivity": "^3.2.37",
+    "petite-vue": "^0.4.1"
   },
   "devDependencies": {
-    "@types/node": "^16.11.6",
-    "@types/tailwindcss": "^2.2.3",
-    "@typescript-eslint/eslint-plugin": "^5.3.0",
-    "@typescript-eslint/parser": "^5.3.0",
-    "autoprefixer": "^10.4.0",
-    "eslint": "^8.1.0",
-    "eslint-config-prettier": "^8.3.0",
-    "husky": "^7.0.4",
-    "lint-staged": "^11.2.6",
-    "postcss": "^8.3.11",
-    "prettier": "^2.4.1",
-    "tailwindcss": "^2.2.19",
-    "typescript": "^4.4.4",
-    "vite": "^2.6.13",
-    "vite-plugin-html": "^2.1.1"
+    "@types/node": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@typescript-eslint/parser": "^5.30.7",
+    "@unocss/preset-typography": "^0.44.5",
+    "@unocss/preset-wind": "^0.44.5",
+    "@unocss/transformer-directives": "^0.44.5",
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "postcss": "^8.4.14",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4",
+    "unocss": "^0.44.5",
+    "vite": "^3.0.2"
   }
 }

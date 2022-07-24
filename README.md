@@ -5,7 +5,7 @@
 ## Key Features
 
 - 🖖 Petite Vue
-- 🍃 Tailwind
+- 🍃 UnoCSS
 - ⚡️ Vite
 - 🦋 Typescript
 - 🦺 ESLint & Prettier
@@ -25,8 +25,8 @@ Use this project as a template by forking directly via GitHub or manually. Clone
 - `npm run serve` - Serve assets for production.
 - `npm run lint` - Lint the codebase and produce warnings.
 - `npm run lint:fix` - Lint the codebase and fix warnings.
-- `npm run cleanup` - Run Prettier on the Typescript source files.
+- `npm run format` - Run Prettier on the Typescript source files.
 
 ## License
 
-[MIT](LICENSE)
+[MIT](./LICENSE) License © 2022 [Johann Schopplich](https://github.com/johannschopplich)

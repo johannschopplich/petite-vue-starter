@@ -1,5 +1,8 @@
-import "./style.css";
 import { createApp } from "petite-vue";
+
+import "@unocss/reset/tailwind.css";
+import "./main.css";
+import "uno.css";
 
 const initialData = {
   // Exposed to all expressions
